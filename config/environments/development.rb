@@ -40,6 +40,8 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
 
   config.action_mailer.perform_caching = false
+  
+  config.action_mailer.default_url_options = { host: 'https://f5ac85a193f14727a1cd3c0c8792ab4e.vfs.cloud9.us-west-2.amazonaws.com/', port: 8080 }
 
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
