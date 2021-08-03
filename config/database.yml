@@ -11,7 +11,15 @@ default: &default
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: playground
+
+  # The specified database role being used to connect to postgres.
+  # To create additional roles in postgres see `$ createuser --help`.
+  # When left blank, postgres will use the default role. This is
+  username: ec2-user
+
+  # The password associated with the postgres role (username).
+  password: bl00dt3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -22,4 +30,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: playground
+  username: ec2-user
+  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>

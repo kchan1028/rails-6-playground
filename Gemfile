@@ -29,6 +29,10 @@ gem 'jbuilder', '~> 2.7'
 
 # Flexible authentication solution
 gem 'devise' 
+# haml-rails template
+gem "slim-rails"
+# Add soft delete. 2.2 or greater required for rails 5
+gem "paranoia"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
