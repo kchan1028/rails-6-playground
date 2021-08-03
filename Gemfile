@@ -48,6 +48,9 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda', '~> 3.6.0'
   gem 'shoulda-matchers', '~> 3.1.3'
+  gem 'guard'
+  gem 'guard-rails', require: false
+  gem 'guard-livereload', '~> 2.5', require: false
 end
 
 group :development do
