@@ -1,6 +1,6 @@
 # Rails 6 Playground
 
-An example Rails 6.1.4 app for a web startup prelaunch page.
+An example Rails 6.1.4 app
 
 # Prerequisites
 
