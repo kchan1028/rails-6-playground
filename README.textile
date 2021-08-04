@@ -16,3 +16,12 @@ h2. Gems used by the application:
 * "cancancan":https://github.com/CanCanCommunity/cancancan Authorization
 * "slim-rails":https://github.com/slim-template/slim-rails Slim templates generator for Rails 
 * "paranoia":https://github.com/rubysherpas/paranoia Soft Delete
+
+h2. Gmes for development/test:
+
+* "Yardoc":https://yardoc.org/ Documentation generation
+* "Rubocop":https://github.com/rubocop/rubocop static code analyzer
+* "Guard":https://github.com/guard/guard automates various tasks
+* "Should-matchers":https://github.com/thoughtbot/shoulda-matchers
+* "database-cleaner":https://github.com/DatabaseCleaner/database_cleaner
+* "faker":https://github.com/faker-ruby/faker
