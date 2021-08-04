@@ -1,5 +1,5 @@
 doctype html
-html
+html.h-100 lang="en" 
   head
     meta content=("text/html; charset=UTF-8") http-equiv="Content-Type" /
     title Myapp
@@ -9,6 +9,9 @@ html
     /! Warning !! ensure that "stylesheet_pack_tag" is used, line below
     = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
-  body
+  body.d-flex.flex-column.h-100 data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1024.0" 
     == render 'layouts/navigation'
-    = yield
+    main.flex-shrink-0
+      .container
+        = yield
+    == render 'layouts/footer'
