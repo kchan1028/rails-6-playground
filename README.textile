@@ -1,4 +1,4 @@
-h1. !Rails 6 Playground
+h1. Rails 6 Playground
 
 An example Rails 6.1.4 app
 
