@@ -36,8 +36,9 @@ gem "slim-rails"
 # Add soft delete. 2.2 or greater required for rails 5
 gem "paranoia"
 
-# SEO
+# SEO GEMS
 gem 'friendly_id', '~> 5.4.0'
+gem 'meta-tags'
 
 
 # Reduces boot times through caching; required in config/boot.rb
