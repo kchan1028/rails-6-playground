@@ -1,14 +1,14 @@
-# Rails 6 Playground
+h1. !Rails 6 Playground
 
 An example Rails 6.1.4 app
 
-# Prerequisites
+h2. Prerequisites
 
 * Ruby 2.7.4
 * Yarn
 * PostgreSQL
 
-# Gems used by the application:
+h2. Gems used by the application:
 
 * "friendly_id":https://github.com/norman/friendly_id SEO friendly URL
 * "meta-tags":https://github.com/kpumuk/meta-tags SEO meta tags
