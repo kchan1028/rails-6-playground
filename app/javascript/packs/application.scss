@@ -1,1 +1,10 @@
 @import "~bootstrap/scss/bootstrap"; 
+
+#homeCarousel {
+    min-height: 75% !important;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
