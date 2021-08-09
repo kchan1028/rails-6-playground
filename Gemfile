@@ -28,9 +28,9 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # Flexible authentication solution
-gem 'devise' 
+# gem 'devise' 
 # Authorization
-gem 'cancancan'
+# gem 'cancancan'
 # haml-rails template
 gem "slim-rails"
 # Add soft delete. 2.2 or greater required for rails 5
@@ -50,8 +50,8 @@ group :development, :test do
   # Ruby static code analyzer
   gem 'rubocop', '~> 1.18', require: false
   gem 'database_cleaner'
-  gem 'pry'
-  gem 'pry-byebug'
+  gem 'pry', '~> 0.13.0'
+  gem 'pry-byebug', '~> 3.9'
   gem 'rspec-rails'
   gem 'shoulda', '~> 3.6.0'
   gem 'shoulda-matchers', '~> 3.1.3'
