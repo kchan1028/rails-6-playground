@@ -28,9 +28,9 @@ gem 'jbuilder', '~> 2.7'
 # gem 'image_processing', '~> 1.2'
 
 # Flexible authentication solution
-# gem 'devise' 
+gem 'devise' 
 # Authorization
-# gem 'cancancan'
+gem 'cancancan'
 # haml-rails template
 gem "slim-rails"
 # Add soft delete. 2.2 or greater required for rails 5
